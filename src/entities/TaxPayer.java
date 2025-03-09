@@ -103,9 +103,5 @@ public class TaxPayer {
         return grossTax() - taxRebate();
 
     }
-    public String toString (){
-        return "TaxPayer [salaryIncome=" + salaryIncome + ", servicesIncome=" + servicesIncome + ", capitalIncome="
-                + capitalIncome + ", healthSpending=" + healthSpending + ", educationSpending=" + educationSpending
-                + "]";
-    }
+
 }
